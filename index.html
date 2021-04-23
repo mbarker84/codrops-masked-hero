@@ -9,6 +9,7 @@
     <meta name="author" content="Codrops" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
     <script>
       document.documentElement.className = "js";
       var supportsCssVars = function () {
@@ -54,8 +55,50 @@
       </div>
       <div class="content">
         <!-- the content -->
+        <header>
+          <button class="menu-button" data-btn="menu" aria-label="menu">
+            <span class="menu-button__icon">
+              <span></span>
+            </span>
+          </button>
+          <nav class="menu" data-menu>
+            <ul>
+              <li>
+                <a href="">About me</a>
+              </li>
+              <li>
+                <a href="">Projects</a>
+              </li>
+              <li>
+                <a href="">Writing</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+        <div class="wrapper">
+          <div class="hero hero--primary">
+            <div class="container">
+              <h1 class="hero__heading">Welcome to my website</h1>
+            </div>
+          </div>
+
+          <div class="hero hero--secondary" aria-hidden="true" data-hero>
+            <div class="container">
+              <p class="hero__heading">Welcome to my website</p>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
+
+    <!--Lodash throttle function-->
+    <script src="https://cdn.jsdelivr.net/npm/lodash.throttle@4.1.1/index.js"></script>
+
+    <!--GSAP-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+
+    <script src="js/index.js"></script>
     <!--script src="https://tympanus.net/codrops/adpacks/cda.js"></script-->
   </body>
 </html>
