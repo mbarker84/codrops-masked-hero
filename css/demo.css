@@ -8,7 +8,7 @@
   --gradientBg: linear-gradient(45deg, #40e0d0, #9932cc, #ff1493, orange);
 }
 
-body {
+.content {
   font-family: Montserrat, sans-serif;
   min-height: 100vh;
   margin: 0;
@@ -18,15 +18,15 @@ body {
 }
 
 /* Reset */
-a {
+.content a {
   color: inherit;
 }
 
-ul {
+.content ul {
   list-style: none;
 }
 
-button {
+.content button {
   border: none;
   padding: 0.5rem;
   font-size: inherit;
