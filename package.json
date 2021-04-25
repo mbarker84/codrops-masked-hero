@@ -1,0 +1,28 @@
+{
+  "name": "codrops-masked-hero",
+  "version": "1.0.0",
+  "description": "*How to use this template:*",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbarker84/codrops-masked-hero.git"
+  },
+  "author": "Michelle Barker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbarker84/codrops-masked-hero/issues"
+  },
+  "homepage": "https://github.com/mbarker84/codrops-masked-hero#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "gsap": "^3.6.1",
+    "lodash.throttle": "^4.1.1",
+    "splitting": "^1.0.6"
+  }
+}

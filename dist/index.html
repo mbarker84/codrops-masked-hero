@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dynamic Masked Hero | Final demo | Codrops</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Codrops">
+    <link rel="shortcut icon" href="/favicon.26242483.ico">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/base.98fd6c19.css">
+    <link rel="stylesheet" type="text/css" href="/demo.e2ac0470.css">
+    <script>document.documentElement.className = "js";
+
+var supportsCssVars = function supportsCssVars() {
+  var e,
+      t = document.createElement("style");
+  return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e;
+};
+
+supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+    <!--script src="//tympanus.net/codrops/adpacks/analytics.js"></script-->
+  <script src="/base.98fd6c19.js"></script><script src="/demo.e2ac0470.js"></script></head>
+  <body class="demo-1">
+    <main>
+      <div class="frame">
+        <div class="frame__title-wrap">
+          <h1 class="frame__title">Title</h1>
+          <p class="frame__tagline">Subtitle</p>
+        </div>
+        <nav class="frame__links">
+          <a href="">Previous demo</a>
+          <a href="">Article</a>
+          <a href="">GitHub</a>
+        </nav>
+        <nav class="frame__demos">
+          <a href="/index.html" class="frame__demo frame__demo--current">demo 1</a>
+          <!--<a href="index2.html" class="frame__demo">demo 2</a>-->
+        </nav>
+      </div>
+      <div class="content">
+        <!-- the content -->
+        <header>
+          <button class="menu-button" data-btn="menu" aria-label="menu">
+            <span class="menu-button__icon">
+              <span></span>
+            </span>
+          </button>
+          <nav class="menu" data-menu="">
+            <ul>
+              <li>
+                <a href="">About me</a>
+              </li>
+              <li>
+                <a href="">Projects</a>
+              </li>
+              <li>
+                <a href="">Writing</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+        <div class="wrapper">
+          <div class="hero hero--primary">
+            <div class="container">
+              <h1 class="hero__heading" data-splitting="">
+                Welcome to my<br>website
+              </h1>
+            </div>
+          </div>
+
+          <div class="hero hero--secondary" aria-hidden="true" data-hero="">
+            <div class="container">
+              <p class="hero__heading" data-splitting="">
+                Welcome to my<br>website
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="/js.00a46daa.js"></script>
+    <!--script src="https://tympanus.net/codrops/adpacks/cda.js"></script-->
+  </body>
+</html>
