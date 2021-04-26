@@ -27,8 +27,6 @@ const onMouseMove = (e) => {
   });
 };
 
-window.addEventListener("mousemove", throttle(onMouseMove, 30));
-
 /* Text animation */
 Splitting();
 
@@ -58,4 +56,7 @@ tl.to(".hero--primary .char", {
     duration: 0.5,
     delay: 0.3,
     ease: "back.out(2)",
+  })
+  .then(() => {
+    window.addEventListener("mousemove", throttle(onMouseMove, 30));
   });

@@ -39,6 +39,7 @@
 }
 
 .container {
+  width: 100%;
   max-width: 84rem;
   margin: 0 auto;
 }
@@ -162,6 +163,8 @@
 
 /* Hero */
 .hero {
+  --x: 50%;
+  --y: 50%;
   min-height: 100vh;
   padding: clamp(1rem, 2vw, 5rem);
   display: flex;

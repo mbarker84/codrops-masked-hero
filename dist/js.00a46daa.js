@@ -6585,9 +6585,8 @@ var onMouseMove = function onMouseMove(e) {
     ease: "sine.out"
   });
 };
-
-window.addEventListener("mousemove", (0, _lodash.default)(onMouseMove, 30));
 /* Text animation */
+
 
 (0, _splitting.default)(); // Set initial text styles (before animation)
 
@@ -6617,6 +6616,8 @@ tl.to(".hero--primary .char", {
   duration: 0.5,
   delay: 0.3,
   ease: "back.out(2)"
+}).then(function () {
+  window.addEventListener("mousemove", (0, _lodash.default)(onMouseMove, 30));
 });
 },{"gsap":"node_modules/gsap/index.js","splitting":"node_modules/splitting/dist/splitting.js","lodash.throttle":"node_modules/lodash.throttle/index.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -6646,7 +6647,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55695" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49975" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
