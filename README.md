@@ -1,17 +1,8 @@
-_How to use this template:_
-
-- The general styles for the demo page are in css/base.css
-- The README.md can be used to add credits of resources used
-- For writing the tutorial, take a look at https://github.com/crnacura/CodropsTemplate/wiki/Writing-the-article
-- Delete this 'how to' in the final version and leave the following (fill in title/description, credits and social links, we'll do the rest):
-
----
-
 # Hero Mask Animation
 
-_Animated CSS mask based on cursor position._
+_Animating a CSS mask based on cursor position using GSAP and custom properties._
 
-![Hero section with CSS mask](https://github.com/mbarker84/codrops-masked-hero/masked-hero_sm.jpg)
+![Hero section with CSS mask](https://github.com/mbarker84/codrops-masked-hero/blob/master/masked-hero_sm.jpg)
 
 [Article on Codrops](https://tympanus.net/codrops/?p=)
 
