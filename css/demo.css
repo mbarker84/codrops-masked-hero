@@ -59,7 +59,7 @@
 }
 
 .hero--secondary .hero__heading {
-  background: radial-gradient(circle at center, white 0.11rem, transparent 0);
+  background: radial-gradient(circle at center, #ffffff 0.11rem, transparent 0);
   background-size: 0.4rem 0.4rem;
   -webkit-background-clip: text;
   background-clip: text;
@@ -194,6 +194,6 @@
 }
 
 /* Text animation */
-.char {
+.hero--primary .hero__heading .char {
   display: inline-block;
 }
