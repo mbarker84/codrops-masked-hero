@@ -1,6 +1,6 @@
 # Hero Mask Animation
 
-_Animating a CSS mask based on cursor position using GSAP and custom properties._
+Animating a CSS mask based on cursor position using GSAP and custom properties.
 
 ![Hero section with CSS mask](https://github.com/mbarker84/codrops-masked-hero/blob/master/masked-hero_sm.jpg)
 
@@ -28,13 +28,9 @@ Create the build:
 npm run build
 ```
 
-## Credits
-
-- _third party resources_
-
 ## Misc
 
-Follow _Author_: [Twitter](https://twitter.com/MicheBarks), [GitHub](https://github.com/mbarker84)
+Follow Michelle: [Twitter](https://twitter.com/MicheBarks), [GitHub](https://github.com/mbarker84)
 
 Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/codrops), [GitHub](https://github.com/codrops), [Instagram](https://www.instagram.com/codropsss/)
 

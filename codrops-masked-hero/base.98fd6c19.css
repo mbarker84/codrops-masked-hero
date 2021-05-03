@@ -17,6 +17,8 @@ body #cdawrap {
     --cda-text-align: right;
     --cda-text-color: var(--color-text);
     --footer-align: end;
+    --cda-text-size: 0.75rem;
+    --cda-footer-fontsize: 0.65rem;
 }
 
 body {
@@ -194,3 +196,6 @@ a:focus-visible {
 		justify-content: center;
 	}
 }
+
+
+/*# sourceMappingURL=/base.98fd6c19.css.map */
