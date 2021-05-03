@@ -174,11 +174,15 @@
 .hero--secondary {
   --mask: radial-gradient(
     circle at var(--x, 50%) var(--y, 50%),
-    black var(--maskSize1, 0),
+    black var(--maskSize1, 0%) 0,
+    rgba(0, 0, 0, 0.1) calc(var(--maskSize1, 0%) + 0.1%),
     transparent 0,
-    transparent var(--maskSize2, 0),
-    black var(--maskSize2, 0),
-    black var(--maskSize3, 0),
+    transparent var(--maskSize2, 0%),
+    rgba(0, 0, 0, 0.1) calc(var(--maskSize2, 0%) + 0.1%),
+    black var(--maskSize2, 0%),
+    rgba(0, 0, 0, 0.1) calc(var(--maskSize3, 0%) - 0.1%),
+    black var(--maskSize3, 0%),
+    rgba(0, 0, 0, 0.1) calc(var(--maskSize3, 0%) + 0.1%),
     transparent 0
   );
   position: absolute;
